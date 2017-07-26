@@ -1,0 +1,119 @@
+/*Colors and Fonts*/
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  color: #cccccc;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+#img-profile {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #cccccc;
+  object-fit: cover;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline li i {
+  font-size: 25px;
+}
+
+.list-inline li i{
+  font-size: 25px;
+}
+
+/*placements*/
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.img-profile{
+  border-radius: 10%;
+}
+
+.center-image{
+  text-align: center;
+}
+
+/*specific css rule*/
+
+
+#moviespics{
+  width: 200px;
+  height: 130px;
+  border: 2px solid #C5C0D8;
+  object-fit: cover;
+}
+
+#moviesfg{
+  width: 130px;
+  height: 200px;
+  border: 2px solid #C5C0D8;
+  object-fit: cover;
+  text-align: center;
+}
+
+#moviestd{
+  padding: 10px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
